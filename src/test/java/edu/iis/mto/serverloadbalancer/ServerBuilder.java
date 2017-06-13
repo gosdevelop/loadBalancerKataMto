@@ -12,6 +12,6 @@ public class ServerBuilder implements Builder<Server> {
     }
 
     public Server build() {
-        return new Server();
+        return new Server(capacity);
     }
 }
